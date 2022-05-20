@@ -1,0 +1,102 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#maindiv{
+  background-color: teal;
+  height: 683px;
+  margin-top: -20px;
+  padding-top: 50px;
+}
+#input1 {
+  width: 330px;
+  height: 70px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+  /* outline: none; */
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+#btn {
+  width: 60px;
+  height: 70px;
+  margin-left: 10px;
+  border-radius: 10px;
+  font-size: 25px;
+  background-color: #fff;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border: 1px solid;
+}
+#input1::placeholder {
+  color: black;
+  font-weight: bold;
+  padding-left: 20px;
+  font-size: 25px;
+}
+#delete {
+  color: rgb(0, 242, 255);
+  font-size: 43px;
+  border: none;
+  border-radius: 50px;
+  margin: 20px;
+}
+#todoitem {
+  display: flex;
+  margin: auto;
+  width: 26%;
+  /* height: 50px; */
+ background-color: #fff;
+  margin-top: 10px;
+  justify-content: space-between;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+
+  /* background-color: red; */
+}
+.value1 {
+  font-size: 25px;
+  color: #282c34;
+  padding-top: 25px;
+  padding-left: 40px;
+}
+h1 {
+  font-family: "Courier New", Courier, monospace;
+  text-decoration: underline;
+  color: #fff;
+}
